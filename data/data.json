@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "text": "React is a JavaScript library for building user interfaces."
+  },
+  {
+    "id": 2,
+    "text": "Node.js allows JavaScript to run on the server."
+  },
+  {
+    "id": 3,
+    "text": "MongoDB is a NoSQL document database."
+  }
+]
