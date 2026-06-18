@@ -10,17 +10,15 @@ A local semantic search engine built using **Node.js**, **Transformers.js**, **H
 
 Instead of matching exact keywords, the system retrieves documents based on their semantic meaning using vector embeddings.
 
-```md
 # 🔍 Local Semantic Search Engine
 
-## 🏗️ Architecture
 
 ![Dashboard](./architecture.png)
 
 <p align="center">
   Semantic Search using Transformers.js, Hugging Face Embeddings and Qdrant
 </p>
-```
+
 
 # 🎯 Problem Statement
 
