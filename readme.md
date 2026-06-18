@@ -15,7 +15,7 @@ Instead of matching exact keywords, the system retrieves documents based on thei
 
 ## 🏗️ Architecture
 
-![Architecture](./assets/architecture.png)
+![Dashboard](./architecture.png)
 
 <p align="center">
   Semantic Search using Transformers.js, Hugging Face Embeddings and Qdrant
