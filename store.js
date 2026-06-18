@@ -9,23 +9,27 @@ const client = new QdrantClient({
 });
 
 export async function createCollection() {
-  const collections = await client.getCollections();
+  try {
+    const collections = await client.getCollections();
 
-  const exists = collections.collections.some((c) => c.name === "documents");
+    const exists = collections.collections.some((c) => c.name === "documents");
 
-  if (exists) {
-    console.log("Collection already exists");
-    return;
+    if (exists) {
+      console.log("Collection already exists");
+      return;
+    }
+
+    await client.createCollection("documents", {
+      vectors: {
+        size: 384,
+        distance: "Cosine",
+      },
+    });
+
+    console.log("Collection Created");
+  } catch (error) {
+    console.error("Failed to create collection:", error.message);
   }
-
-  await client.createCollection("documents", {
-    vectors: {
-      size: 384,
-      distance: "Cosine",
-    },
-  });
-
-  console.log("Collection Created");
 }
 
 // const collections = await client.getCollections();
@@ -43,7 +47,6 @@ export async function createCollection() {
 // });
 
 // console.log(points);
-
 export async function uploadDocuments() {
   const docs = JSON.parse(fs.readFileSync("./data/data.json", "utf-8"));
 
@@ -55,6 +58,9 @@ export async function uploadDocuments() {
         id: doc.id,
         vector,
         payload: {
+          title: doc.title,
+          category: doc.category,
+          author: doc.author,
           text: doc.text,
         },
       };

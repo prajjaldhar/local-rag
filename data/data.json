@@ -1,14 +1,107 @@
 [
   {
     "id": 1,
-    "text": "React is a JavaScript library for building user interfaces."
+    "title": "Introduction to React",
+    "category": "Frontend",
+    "author": "Meta",
+    "text": "React is a JavaScript library used for building interactive user interfaces through reusable components and a virtual DOM."
   },
   {
     "id": 2,
-    "text": "Node.js allows JavaScript to run on the server."
+    "title": "React Hooks",
+    "category": "Frontend",
+    "author": "Meta",
+    "text": "React Hooks allow functional components to manage state and side effects without using class components."
   },
   {
     "id": 3,
-    "text": "MongoDB is a NoSQL document database."
+    "title": "JavaScript Fundamentals",
+    "category": "Programming",
+    "author": "ECMA",
+    "text": "JavaScript is a high-level programming language used for web development, server-side applications, and automation."
+  },
+  {
+    "id": 4,
+    "title": "Node.js Runtime",
+    "category": "Backend",
+    "author": "OpenJS Foundation",
+    "text": "Node.js is a runtime environment that enables JavaScript code to execute outside the browser using the V8 engine."
+  },
+  {
+    "id": 5,
+    "title": "Express.js Framework",
+    "category": "Backend",
+    "author": "OpenJS Foundation",
+    "text": "Express.js is a lightweight web framework for Node.js used to build APIs and server-side applications."
+  },
+  {
+    "id": 6,
+    "title": "MongoDB Database",
+    "category": "Database",
+    "author": "MongoDB Inc.",
+    "text": "MongoDB is a NoSQL document database designed for scalability, flexibility, and high performance."
+  },
+  {
+    "id": 7,
+    "title": "Redis Caching",
+    "category": "Database",
+    "author": "Redis",
+    "text": "Redis is an in-memory data store commonly used for caching, session management, and real-time analytics."
+  },
+  {
+    "id": 8,
+    "title": "Docker Containers",
+    "category": "DevOps",
+    "author": "Docker",
+    "text": "Docker enables applications to run inside lightweight and portable containers with consistent environments."
+  },
+  {
+    "id": 9,
+    "title": "Git Version Control",
+    "category": "Tools",
+    "author": "Git",
+    "text": "Git is a distributed version control system used for tracking changes and collaborating on software projects."
+  },
+  {
+    "id": 10,
+    "title": "REST APIs",
+    "category": "Backend",
+    "author": "Web Standards",
+    "text": "REST is an architectural style for designing networked applications that communicate over HTTP."
+  },
+  {
+    "id": 11,
+    "title": "GraphQL Basics",
+    "category": "Backend",
+    "author": "Meta",
+    "text": "GraphQL is a query language for APIs that allows clients to request only the data they need."
+  },
+  {
+    "id": 12,
+    "title": "TypeScript Overview",
+    "category": "Programming",
+    "author": "Microsoft",
+    "text": "TypeScript is a statically typed superset of JavaScript that improves code quality and maintainability."
+  },
+  {
+    "id": 13,
+    "title": "Next.js Framework",
+    "category": "Frontend",
+    "author": "Vercel",
+    "text": "Next.js is a React framework that provides server-side rendering, static generation, and routing features."
+  },
+  {
+    "id": 14,
+    "title": "Authentication with JWT",
+    "category": "Security",
+    "author": "RFC",
+    "text": "JSON Web Tokens are used to securely transmit authentication and authorization information between systems."
+  },
+  {
+    "id": 15,
+    "title": "Microservices Architecture",
+    "category": "Architecture",
+    "author": "Software Engineering",
+    "text": "Microservices divide an application into small independent services that communicate through APIs."
   }
 ]

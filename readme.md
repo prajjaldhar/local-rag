@@ -10,6 +10,17 @@ A local semantic search engine built using **Node.js**, **Transformers.js**, **H
 
 Instead of matching exact keywords, the system retrieves documents based on their semantic meaning using vector embeddings.
 
+```md
+# 🔍 Local Semantic Search Engine
+
+## 🏗️ Architecture
+
+![Architecture](./assets/architecture.png)
+
+<p align="center">
+  Semantic Search using Transformers.js, Hugging Face Embeddings and Qdrant
+</p>
+```
 
 # 🎯 Problem Statement
 
@@ -46,14 +57,13 @@ This enables retrieval based on context and intent rather than exact keyword mat
 
 ### Example
 
-| Query                       | Traditional Search          | Semantic Search                      |
-| --------------------------- | --------------------------- | ------------------------------------ |
+| Query                       | Traditional Search          | Semantic Search                       |
+| --------------------------- | --------------------------- | ------------------------------------- |
 | Explain React               | May miss relevant documents | ✅ Finds React-related content        |
 | What is a frontend library? | Often fails                 | ✅ Retrieves React document           |
 | JavaScript UI framework     | Keyword dependent           | ✅ Finds semantically similar content |
 
 By leveraging Hugging Face embeddings and Qdrant Vector Database, this project demonstrates how modern AI-powered retrieval systems can understand meaning rather than just text matching.
-
 
 ---
 
